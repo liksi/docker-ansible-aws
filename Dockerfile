@@ -1,4 +1,4 @@
-ARG ANSIBLE_VERSION=2.9.17
+ARG ANSIBLE_VERSION=3.0.0
 
 # pull base image
 FROM liksi/ansible:${ANSIBLE_VERSION}-ubuntu20.04
