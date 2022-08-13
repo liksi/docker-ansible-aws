@@ -1,4 +1,4 @@
-ARG ANSIBLE_VERSION=5.10.0
+ARG ANSIBLE_VERSION=6.2.0
 
 # pull base image
 FROM liksi/ansible:${ANSIBLE_VERSION}-ubuntu22.04
