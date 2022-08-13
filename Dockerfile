@@ -1,7 +1,7 @@
 ARG ANSIBLE_VERSION=5.10.0
 
 # pull base image
-FROM liksi/ansible:${ANSIBLE_VERSION}-ubuntu20.04
+FROM liksi/ansible:${ANSIBLE_VERSION}-ubuntu22.04
 
 LABEL "maintainer"="liksi <ops@liksi.fr>"
 
